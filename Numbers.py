@@ -1,3 +1,6 @@
+#⌨️ (0:26:37) Numbers In Python
+
+
 from rich import print
 from math import *
 # build in functies

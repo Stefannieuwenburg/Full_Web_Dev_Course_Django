@@ -1,3 +1,6 @@
+#⌨️ (0:47:08) List In Python
+
+
 countries = ['united kingdom','ghana','spanje','cuba','china','holland']
 list2 = list(('spanje','holland','cuba','china'))#list constructor(class type)
 name = 'country , from, world'

@@ -1,3 +1,6 @@
+#⌨️ (1:03:05) List Methods
+
+
 # list methods
 list0 = [1,2,3,4,5,6,7,8]
 list1 = [4,3,5,9,6,8,7]

@@ -1,3 +1,6 @@
+#⌨️ (1:16:28) Tuples In Python
+
+
 #Only us tuples if you not whant to change things in your tuples list
 three_numbers = (1,2,3,1)
 strings = ('home','land','earth')

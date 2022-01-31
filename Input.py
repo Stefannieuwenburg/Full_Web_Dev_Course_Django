@@ -1,3 +1,5 @@
+# ⌨️ (0:37:19) Getting A User's Input
+
 
 name = input('input your name : ')
 email = input('input your email address :')
