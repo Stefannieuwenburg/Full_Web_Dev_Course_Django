@@ -1,6 +1,26 @@
 #⌨️ (2:37:38) Building A Basic Calculator
+'''
+/////////part 1 Program make a simple calculator\\\\\\\\\\\\
+'''
+num1 = float(input('Enter first number :'))
+num2 = float(input('Enter second number :'))
+op = input('Enter operator :')
 
-# /////////Program make a simple calculator\\\\\\\\\\\\
+if op == '+':
+    print(num1+num2)
+elif op == '-':
+    print(num1-num2)
+elif op == '*':
+    print(num1*num2)
+elif op == '/':
+    print(num1/num2)
+else: 
+    print("Invalid Input")
+
+
+'''
+/////////part 2 Program make a simple calculator\\\\\\\\\\\\
+'''
 
 # This function adds two numbers
 def add(x, y):
@@ -27,12 +47,12 @@ print("4.Divide")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter number : ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+        num1 = float(input("Enter first number : "))
+        num2 = float(input("Enter second number : "))
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -51,6 +71,5 @@ while True:
         next_calculation = input("Let's do next calculation? (yes/no): ")
         if next_calculation == "no":
           break
-    
     else:
         print("Invalid Input")
