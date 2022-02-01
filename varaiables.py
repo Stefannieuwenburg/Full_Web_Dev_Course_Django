@@ -1,3 +1,6 @@
+#⌨️ (0:11:36) Variables In Python
+
+
 from rich import print
 
 age = 18

@@ -1,3 +1,6 @@
+#⌨️ (0:17:10) Strings In Python
+
+
 name = "Tim"
 player = 'Ruud Gullit'
 print ('hi\n Tim ')
